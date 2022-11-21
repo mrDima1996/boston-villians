@@ -32,7 +32,7 @@ module.exports = {
         name: "bostonVillians",
         filename: "remoteEntry.js",
         exposes: {
-            './Component': './/src/app/boston-villians.module.ts',
+            './Component': './/src/app/boston-villians.component.ts',
         },
 
         // For hosts (please adjust)
