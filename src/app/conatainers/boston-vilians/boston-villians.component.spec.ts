@@ -10,22 +10,22 @@ describe('AppComponent', () => {
     }).compileComponents();
   });
 
-  it('should create the app', () => {
+  it('should create the boston-vilians', () => {
     const fixture = TestBed.createComponent(BostonVilliansComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'boston-villians'`, () => {
+  it(`should have as title 'dummy-micro-front-end'`, () => {
     const fixture = TestBed.createComponent(BostonVilliansComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('boston-villians');
+    expect(app.title).toEqual('dummy-micro-front-end');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(BostonVilliansComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('boston-villians app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('dummy-micro-front-end boston-vilians is running!');
   });
 });
